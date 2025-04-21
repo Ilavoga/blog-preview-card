@@ -42,7 +42,7 @@ body{
     background-color: #fff;
     width: 300px;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 16px;
     box-shadow: 8px 8px 0px black;
 }
@@ -80,4 +80,14 @@ body{
 .attribution {
     margin-top: 2dvb;
     text-align: center;
+  }
+
+ a:hover {
+    color: #ffff;
+    text-decoration: none;
+  }
+
+  a:focus {
+    outline: 2px solid #000;
+    border-radius: 2px;
   }
